@@ -1,6 +1,4 @@
-var qt_aulas = parseInt(prompt('Digite quantas aulas a matéria tem'))
-
-function InserirAluno(){
+function InserirAluno(qt_aulas){
     var matricula = prompt('Digite a sua matrícula')
     var nome = prompt('Digite o seu nome')
     var qt_faltas = parseInt(prompt('Digite a quantidade de faltas'))
