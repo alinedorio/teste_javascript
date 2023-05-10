@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 128, 0, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#tabela, th, td{
+    background-color: rgb(237, 255, 211);
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 12px;
+}
+
+th, td{
+    height: 50px;
+    width: 100px;
+}
+
+button{
+    margin-top: 30px;
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px, solid, green;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(227, 255, 227);
+    color: green;
+    box-shadow: rgb(43, 255, 0) 0px 0px 100px;
+}
